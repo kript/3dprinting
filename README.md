@@ -9,8 +9,16 @@
 ## Generate test file
 
 ```bash
+# create a 3d printed word - in thise case 'hello'
 poetry run python text_to_stl.py
+# as above but with a spike to put it into the ground
+poetry run python text_to_stl_with_spike.py
 ```
+
+
+### Notes
+
+ The spike is a cone positioned below the text, and you can adjust its height and radius with the spike_height and spike_radius parameters.
 
 ### Fonts
 
