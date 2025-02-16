@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "3dprinting"
+version = "0.1.0"
+description = "3D printing tools"
+authors = ["John Constable <john@kript.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.3"
+trimesh = "^4.6.2"
+pillow = "^11.1.0"
+freetype-py = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
